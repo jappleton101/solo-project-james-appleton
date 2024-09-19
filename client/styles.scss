@@ -1,0 +1,35 @@
+@import '~bootstrap/scss/bootstrap';
+
+.app-container {
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+#site-container {
+  border: 1px solid black;
+}
+
+#left-container {
+  border: 1px solid black;
+  width: 200px;
+  align-self: stretch;
+}
+
+#map-container {
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-title {
+  cursor: pointer;
+}
+
+.selected-ride {
+  border: 1px solid rgb(77, 128, 77);
+}
