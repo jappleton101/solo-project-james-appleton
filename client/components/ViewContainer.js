@@ -267,7 +267,7 @@ function ViewContainer({ currentView }) {
               latitude: selectedRideGeometry.startLat,
             }}
             mapStyle='mapbox://styles/mapbox/streets-v9'
-            mapboxAccessToken='pk.eyJ1IjoiamFwcGxldG9uMTAxIiwiYSI6ImNrY2U1NXJtOTAzemIyenBiOGtkM2JsejMifQ.tRtcXxM39mpqPM-SHRCkJQ'
+            mapboxAccessToken=MAPBOX_TOKEN
           >
             <Source id='my-data' type='geojson' data={rideGeoJson}>
               <Layer {...layerStyle} />
