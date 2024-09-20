@@ -120,7 +120,7 @@ function CreateRide({
           flexShrink: 1,
         }}
         mapStyle='mapbox://styles/mapbox/streets-v9'
-        mapboxAccessToken='pk.eyJ1IjoiamFwcGxldG9uMTAxIiwiYSI6ImNrY2U1NXJtOTAzemIyenBiOGtkM2JsejMifQ.tRtcXxM39mpqPM-SHRCkJQ'
+        mapboxAccessToken=MAPBOX_TOKEN
         onClick={mapClickHandler}
       >
         {newRideGeoJson.coordinates.length > 1 ? (
